@@ -23,11 +23,13 @@ public class DNABenchmark {
 	 * Change these to change the tests to
 	 * use a different type
 	 */
-//	private static final String strandType = "StringStrand";
-//	private static final String strandType = "LinkStrand";
-	private static final String strandType = "StringBuilderStrand";
+	//private static final String strandType = "StringStrand";
+	private static final String strandType = "LinkStrand";
+	//private static final String strandType = "StringBuilderStrand";
 	
-	private static final String ENZYME = "gaattc";
+	//old enzyme instance variable: gaattc
+	
+	private static final String ENZYME = "gaat";
 	private static final int TRIALS = 2;
 	
 	private static String mySource;
